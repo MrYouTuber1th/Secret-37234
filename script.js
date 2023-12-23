@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var currentDate = new Date();
         var options = { year: 'numeric', month: 'long', day: 'numeric' };
         var formattedDate = currentDate.toLocaleDateString('en-US', options);
-        shortDateElement.textContent = 'Short date: ' + formattedDate;
+        shortDateElement.textContent = 'Date: ' + formattedDate;
     }
 
     updateShortDate();
